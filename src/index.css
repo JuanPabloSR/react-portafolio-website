@@ -60,6 +60,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2,
@@ -92,8 +93,8 @@ a:hover {
   color: var(--color-primary);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
-  cursor: pointer;
-  border: 1px solid var(--color-primary);
+  cursor: pointer; 
+  border: 1px solid var(--color-primary); 
   transition: var(--transition);
 }
 
@@ -116,7 +117,7 @@ img {
 
 /*========================== MEDIA QUERIES (MEDIUM DEVICES TABLETS, ETC) ==============================*/
 
-@media screen and (max-widht: 1024px) {
+@media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
@@ -128,7 +129,7 @@ img {
 
 /*========================== MEDIA QUERIES (SMALL DEVICES PHONES, ETC) ==============================*/
 
-@media screen and (max-widht: 600px) {
+@media screen and (max-width: 600px) {
     .container {
       width: var(--container-width-sm);
     }
