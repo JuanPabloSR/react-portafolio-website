@@ -3,7 +3,7 @@ import "./about.css";
 import ME from "../../assets/meee.jpeg";
 import { FaAward } from "react-icons/fa";
 import { ImUsers } from "react-icons/im";
-import { GiEvilBook } from "react-icons/gi";
+import { BsFileCodeFill } from "react-icons/bs";
 
 const About = () => {
   return (
@@ -27,13 +27,13 @@ const About = () => {
             </article>
 
             <article className="about__card">
-              <ImUsers className="users__icon" />
+              <ImUsers className="about__icon" />
               <h5>Clients</h5>
               <small>12+ Satisfied Clients </small>
             </article>
 
             <article className="about__card">
-              <GiEvilBook className="project__icon" />
+              <BsFileCodeFill className="about__icon" />
               <h5>Projects</h5>
               <small>26+ Completed</small>
             </article>
