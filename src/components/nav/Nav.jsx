@@ -1,10 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './nav.css'
 import {AiFillHome} from 'react-icons/ai'
 import {FaUserAstronaut} from 'react-icons/fa'
 import {BsBookHalf} from 'react-icons/bs'
 import { RiServiceFill, RiMessage3Fill } from 'react-icons/ri'
-import { useState } from 'react'
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState ('#')
