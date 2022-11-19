@@ -9,11 +9,7 @@ const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    Swal.fire(
-      'Mail Send!',
-      'Your email was sent successfully!',
-      'success'
-    )
+    Swal.fire("Mail Send!", "Your email was sent successfully!", "success");
     e.preventDefault();
     emailjs.sendForm(
       "service_4wvtwg7",
@@ -35,7 +31,8 @@ const Contact = () => {
           <article className="contact__option">
             <IoMdMail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>juanpablosanchez744@gmail.com</h5>
+            <h5>juanpablosanchez744@gmail
+            .com</h5>
             <a
               href="mailto:juanpablosanchez744@gmail.com"
               target="_blank"
