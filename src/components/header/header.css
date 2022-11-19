@@ -18,6 +18,13 @@ header {
   justify-content: center;
 }
 
+.item:hover {
+  transform: scale(1.5);
+}
+.itemCta:hover {
+  transform: scale(1.1);
+}
+
 /* ================== HEADER SOCIALS ======================*/
 .header__socials {
   display: flex;
@@ -34,6 +41,7 @@ header {
   width: 1px;
   height: 2rem;
   background: var(--color-primary);
+  
 }
 
 /* ================== ME ======================*/

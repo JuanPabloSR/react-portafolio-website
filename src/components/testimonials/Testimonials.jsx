@@ -8,7 +8,7 @@ import AVTR4 from "../../assets/avatar4.jpg";
 import { Pagination } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-
+ 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -16,27 +16,27 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: AVTR1,
-    name: "Johan Garcia",
+    name: "Devin Dixon - Founder & CEO at BingeWave",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos laboriosam, perspiciatis ut asperiores recusandae repellendus quasi facere sint maiores nesciunt.",
+      "Working with Juan Pablo was a good experience, he helped us with a code revision for a project we are developing in React.",
   },
   {
     avatar: AVTR2,
-    name: "Devin Dixon",
+    name: "Derus Mantilla - Developer",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos laboriosam, perspiciatis ut asperiores recusandae repellendus quasi facere sint maiores nesciunt.",
+      "I have been able to study and work with Juan, he is an incredible developer with a lot of passion for what he does, I wish him the best.",
   },
   {
     avatar: AVTR3,
-    name: "Ana Rivera",
+    name: "Johan Garcia - Lawyer",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos laboriosam, perspiciatis ut asperiores recusandae repellendus quasi facere sint maiores nesciunt.",
+      "Juan Pablo helped me creating my web site for my law firm, everything very professional and on time, I would recommend him without hesitation.",
   },
   {
     avatar: AVTR4,
-    name: "Tassleem Ansari",
+    name: "Camilo Garcia - Developer",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos laboriosam, perspiciatis ut asperiores recusandae repellendus quasi facere sint maiores nesciunt.",
+      "I met Juan Pablo in college, I have done several freelance jobs with him, without a doubt he is a great developer, with great programming skills.",
   },
 ];
 

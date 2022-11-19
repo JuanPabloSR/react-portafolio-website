@@ -3,19 +3,21 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me2.png'
 import HeaderSocials from './HeaderSocials'
+import 'animate.css';
+
    
 const Header = () => {
   return (   
     <header>     
       <div className="container header__container">
-        <h5>Hello I'm</h5>    
-        <h1>Juan P. Sánchez</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <h5 className='animate__animated animate__fadeInDown'>Hello I'm</h5>    
+        <h1 className='animate__animated animate__slideInDown'>Juan P. Sánchez</h1>
+        <h5 className="text-light animate__animated animate__pulse">Fullstack Developer</h5>
         <CTA />
         <HeaderSocials/>
 
-        <div className='me'>
-          <img src={ME} alt='me'/>
+        <div className='me '>
+          <img src={ME} alt='me'/>  
         </div> 
 
         <a href='#contact' className='scroll__down'>Scroll Down</a>

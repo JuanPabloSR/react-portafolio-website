@@ -30,17 +30,11 @@ const Services = () => {
             </li>
             <li>
               <GiSwordInStone className="service__list-icon" />
-              <p>Contact Form</p>
+              <p>Responsive Desing</p>
             </li>
-
             <li>
               <GiSwordInStone className="service__list-icon" />
-              <p>SSL security certificate</p>
-            </li>
-
-            <li>
-              <GiSwordInStone className="service__list-icon" />
-              <p>Hosting and domain included</p>
+              <p>1 page</p>
             </li>
           </ul>
         </article>
@@ -67,17 +61,23 @@ const Services = () => {
             </li>
             <li>
               <GiSwordInStone className="service__list-icon" />
-              <p>Contact Form</p>
+              <p>Responsive Desing</p>
             </li>
-
             <li>
               <GiSwordInStone className="service__list-icon" />
-              <p>SSL security certificate</p>
+              <p>Responsive Desing</p>
             </li>
-
             <li>
               <GiSwordInStone className="service__list-icon" />
-              <p>Hosting and domain included</p>
+              <p>5 pages</p>
+            </li>
+            <li>
+              <GiSwordInStone className="service__list-icon" />
+              <p>Source File</p>
+            </li>
+            <li>
+              <GiSwordInStone className="service__list-icon" />
+              <p>Convert to HTML/CSS</p>
             </li>
           </ul>
         </article>
@@ -104,17 +104,31 @@ const Services = () => {
             </li>
             <li>
               <GiSwordInStone className="service__list-icon" />
-              <p>Contact Form</p>
+              <p>Responsive Desing</p>
             </li>
-
             <li>
               <GiSwordInStone className="service__list-icon" />
-              <p>SSL security certificate</p>
+              <p>Responsive Desing</p>
             </li>
-
             <li>
               <GiSwordInStone className="service__list-icon" />
-              <p>Hosting and domain included</p>
+              <p>10 pages</p>
+            </li>
+            <li>
+              <GiSwordInStone className="service__list-icon" />
+              <p>Source File</p>
+            </li>
+            <li>
+              <GiSwordInStone className="service__list-icon" />
+              <p>Convert to HTML/CSS</p>
+            </li>
+            <li>
+              <GiSwordInStone className="service__list-icon" />
+              <p>E-commerce functionality</p>
+            </li>
+            <li>
+              <GiSwordInStone className="service__list-icon" />
+              <p>Content upload</p>
             </li>
           </ul>
         </article>

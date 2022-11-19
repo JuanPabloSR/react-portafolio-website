@@ -29,42 +29,42 @@ const Experience = () => {
               <SiHtml5 className='experience__details-icon'/>
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experienced +2 years</small>
               </div>
             </article>
             <article className="experience__details">
               <SiCss3 className='experience__details-icon'/>
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experienced +2 years</small>
               </div>
             </article>
             <article className="experience__details">
               <SiJavascript className='experience__details-icon'/>
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experienced +2 years</small>
               </div>
             </article>
             <article className="experience__details">
               <SiBootstrap className='experience__details-icon'/>
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experienced +1 years</small>
               </div>
             </article>
             <article className="experience__details">
               <SiAngular className='experience__details-icon'/>
               <div>
                 <h4>Angular</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experienced +1 years</small>
               </div>
             </article>
             <article className="experience__details">
               <SiReact className='experience__details-icon'/>
               <div>
                 <h4>React</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experienced +1 years</small>
               </div>
             </article>
           </div>
@@ -77,42 +77,42 @@ const Experience = () => {
               <SiJava className='experience__details-icon'/>
               <div>
                 <h4>Java</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experienced +2 years</small>
               </div>
             </article>
             <article className="experience__details">
               <SiSpringboot className='experience__details-icon'/>
               <div>
                 <h4>SpringBoot</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experienced +2 years</small>
               </div>
             </article>
             <article className="experience__details">
               <GrMysql className='experience__details-icon'/>
               <div>
                 <h4>MySql</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experienced +3 years</small>
               </div>
             </article>
             <article className="experience__details">
               <SiMongodb className='experience__details-icon'/>
               <div>
                 <h4>MongoDB</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experienced +2 years</small>
               </div>
             </article>
             <article className="experience__details">
               <SiOracle className='experience__details-icon'/>
               <div>
                 <h4>Oracle</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experienced +1 years</small>
               </div>
             </article>
             <article className="experience__details">
               <SiRabbitmq className='experience__details-icon'/>
               <div>
                 <h4>RabbitMQ</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experienced +1 years</small>
               </div>
             </article>
           </div>
