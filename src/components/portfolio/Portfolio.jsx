@@ -1,12 +1,12 @@
 import React from "react";
 import "./portafolio.css";
-import IMG1 from "../../assets/mywebpage2.png";
-import IMG2 from "../../assets/oldpage3.png";
-import IMG3 from "../../assets/martinezfajardo.png";
-import IMG4 from "../../assets/rickandmortyAp.png";
-import IMG5 from "../../assets/piensalo.png";
-import IMG6 from "../../assets/candy.png";
-
+import IMG1 from "../../assets/mywebpage2.webp";
+import IMG2 from "../../assets/oldpage3.webp";
+import IMG3 from "../../assets/martinezfajardo.webp";
+import IMG4 from "../../assets/rickandmortyap.webp";
+import IMG5 from "../../assets/piensalo.webp";
+import IMG6 from "../../assets/candy.webp";
+ 
 const data = [
   {
     id:1, 
