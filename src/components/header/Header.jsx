@@ -8,6 +8,7 @@ import ReactGA from "react-ga"
 
 
 const Header = () => {
+  ReactGA.event({'category':'Test','action':'submit', 'label':'label'});
   return (   
     <header>  
         

@@ -10,9 +10,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ReactGA from "react-ga"
 
-const TRACKING_ID = "G-SZXRBTBX0K";
-ReactGA.initialize(TRACKING_ID);
-ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.initialize("G-SZXRBTBX0K");
 
 const App = () => {
   return (
