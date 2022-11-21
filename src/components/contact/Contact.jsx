@@ -4,11 +4,13 @@ import { BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
+import ReactGA from "react-ga4"
 
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
+    ReactGA.event({ category: "Test", action: "submit", label: "label" });
     Swal.fire("Mail Send!", "Your email was sent successfully!", "success");
     e.preventDefault();
     emailjs.sendForm(
