@@ -4,11 +4,13 @@ import CTA from './CTA'
 import ME from '../../assets/me2.webp'
 import HeaderSocials from './HeaderSocials'
 import 'animate.css';
+import ReactGA from "react-ga"
+
 
 const Header = () => {
   return (   
     <header>  
-       
+        
       <div className="container header__container">
         <h5 className='animate__animated animate__fadeInDown'>Hello I'm</h5>    
         <h1 className='animate__animated animate__slideInDown'>Juan P. Sánchez</h1>
@@ -25,5 +27,6 @@ const Header = () => {
     </header>
   )
 }
+ReactGA.pageview(window.location.pathname);
 
 export default Header
