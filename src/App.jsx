@@ -12,9 +12,7 @@ import ReactGA from "react-ga4"
 
 const trackingId = "G-SZXRBTBX0K"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
-ReactGA.set({
-  username: localStorage.getItem('userName'),
-})
+
 const App = () => {
   return (
     <>

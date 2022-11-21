@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./header.css";
 import CTA from "./CTA";
 import ME from "../../assets/me2.webp";
@@ -7,6 +7,10 @@ import "animate.css";
 import ReactGA from "react-ga4";
 
 const Header = () => {
+
+  useEffect(() => {
+    ReactGA.send(window.location.pathname);
+  }, []);
   
   return (
     <header>
