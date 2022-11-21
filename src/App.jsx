@@ -10,8 +10,11 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ReactGA from "react-ga4"
 
-ReactGA.initialize("G-SZXRBTBX0K");
-
+const trackingId = "G-SZXRBTBX0K"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
+ReactGA.set({
+  username: localStorage.getItem('userName'),
+})
 const App = () => {
   return (
     <>
