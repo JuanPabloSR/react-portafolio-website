@@ -7,11 +7,14 @@ import "animate.css";
 import ReactGA from "react-ga4";
 
 const Header = () => {
-
   useEffect(() => {
     ReactGA.send(window.location.pathname);
   }, []);
-  
+  ReactGA.event({
+    category: "category",
+    action: "test action",
+    label: "label",
+  });
   return (
     <header>
       <div className="container header__container">
@@ -36,6 +39,5 @@ const Header = () => {
     </header>
   );
 };
-ReactGA.pageview(window.location.pathname);
 
 export default Header;
