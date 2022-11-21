@@ -8,10 +8,11 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import ReactGA from "react-ga"
 
-import ReactGA from 'react-ga';
-const TRACKING_ID = "G-SZXRBTBX0K"; 
-ReactGA.initialize(TRACKING_ID)
+const TRACKING_ID = "G-SZXRBTBX0K";
+ReactGA.initialize(TRACKING_ID);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const App = () => {
   return (
