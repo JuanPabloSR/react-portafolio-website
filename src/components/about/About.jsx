@@ -50,7 +50,7 @@ const About = () => {
             For the backend Java with Springboot, Webflux, I'm
             learning NodeJs Database relational and non-relational, Mysql,
             Oracle, MongoDB <br /> 
-             I look forward to working with you
+             I look forward to working with you.
           </p>
 
           <a href="#contact" className="btn btn-primary">
