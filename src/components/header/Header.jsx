@@ -5,11 +5,12 @@ import ME from "../../assets/me2.webp";
 import HeaderSocials from "./HeaderSocials";
 import "animate.css";
 import ReactGA from "react-ga4";
+import { pageview } from "react-ga";
 
 const Header = () => {
   useEffect(() => {
-    ReactGA.send(window.location.pathname);
-  }, []);
+    ReactGA.send(pageview);
+  }, []); 
   ReactGA.event({
     category: "category",
     action: "test action",
@@ -39,6 +40,6 @@ const Header = () => {
     </header>
   );
 };
-ReactGA.pageview(window.location.pathname);
+
 
 export default Header;
