@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/meee.webp";
+import ME from "../../assets/yo.webp";
 import { FaAward } from "react-icons/fa";
 import { ImUsers } from "react-icons/im";
 import { BsFileCodeFill } from "react-icons/bs";
