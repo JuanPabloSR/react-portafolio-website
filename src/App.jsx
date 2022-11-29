@@ -9,6 +9,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ReactGA from "react-ga4"
+import reportWebVitals from './reportWebVitals';
 
 const trackingId = "G-SZXRBTBX0K"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
@@ -29,5 +30,15 @@ const App = () => {
   );
 };
 
+const SendAnalytics = () => {
+  console.log('Send Analytics called the Path:', window.location.pathname);
 
+  ReactGA.send({
+    hitType: "pageviwe",
+    page: window.location.pathname,
+  });
+}
+
+
+reportWebVitals(SendAnalytics)
 export default App;
