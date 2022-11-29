@@ -39,5 +39,6 @@ const Header = () => {
     </header>
   );
 };
+ReactGA.pageview(window.location.pathname);
 
 export default Header;
