@@ -36,7 +36,7 @@ const About = () => {
               <BsFileCodeFill className="about__icon" />
               <h5>Projects</h5>
               <small>+25 projects of all types</small>
-            </article>
+            </article> 
           </div>
 
           <p>
